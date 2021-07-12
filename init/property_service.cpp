@@ -997,7 +997,7 @@ void PropertyLoadBootDefaults() {
     vendor_load_properties();
 
     property_initialize_ro_product_props();
-    property_derive_build_props();
+    property_derive_build_fingerprint();
 
     update_sys_usb_config();
         
